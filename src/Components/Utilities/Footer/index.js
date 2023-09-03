@@ -19,7 +19,7 @@ const footerPost = [
 const Footer = () => {
     return (
         <footer className="main-footer">
-            <div className="footer-wrap pt-115 rpt-95 pb-60 rpb-40">
+            {/* <div className="footer-wrap pt-115 rpt-95 pb-60 rpb-40">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
@@ -159,12 +159,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- Copyright Area --> */}
             <div className="copy-right-area">
                 <div className="container">
                     <div className="copy-right-text text-center">
-                        <p><span>{"Copyright"}</span> {"© 2021 | All Rights Reserved"}</p>
+                        <p><span>{"Copyright"}</span> {"© 2023 | All Rights Reserved"}</p>
                     </div>
                 </div>
             </div>

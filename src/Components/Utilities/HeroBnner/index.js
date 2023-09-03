@@ -12,10 +12,10 @@ const HeroBanner = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="hero-content">
-                            <h1>{"IT Management Service & Support for Your Business."}</h1>
-                            <p>{"Keep your business safe & ensure high availability."}</p>
-                            <Link to={"/service-details"} className="btn theme-btn">
-                                {"Find Solusion"}
+                            <h1>{"Disionix: Shaping Tomorrow's Solutions Today"}</h1>
+                            <p>{"Innovative Technology for a Brighter Future"}</p>
+                            <Link to={"#"} className="btn theme-btn">
+                                {"Say Hello"}
                                 <i className="icofont-double-right"></i>
                             </Link>
                         </div>

@@ -60,14 +60,14 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
-                                                to={"/about"}>
-                                                {"About"}
+                                                to={"#service"}>
+                                                {"Service"}
                                             </NavLink>
                                         </li>
                                         <li>
                                             <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
-                                                to={"/service-details"}>
-                                                {"Service"}
+                                                to={"/about"}>
+                                                {"About"}
                                             </NavLink>
                                         </li>
                                         <li>
@@ -76,12 +76,12 @@ const Header = () => {
                                                 {"Project"}
                                             </NavLink>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/blog-details"}>
                                                 {"Blog"}
                                             </NavLink>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/contact"}>
@@ -95,8 +95,8 @@ const Header = () => {
                         </div>
 
                         <div className="menu-btn">
-                            <Link to={"/contact"} className="btn theme-btn">
-                                {"Contact Now"}
+                            <Link to={"#"} className="btn theme-btn">
+                                {"Connect With Us"}
                                 <i className="icofont-arrow-right"></i>
                             </Link>
                         </div>
