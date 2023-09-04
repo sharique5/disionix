@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import heroShape from '../../../assets/images/hero/hero-shape.png'
 import heroBg from '../../../assets//images/hero/system-website-concept.png'
 
@@ -14,10 +14,14 @@ const HeroBanner = () => {
                         <div className="hero-content">
                             <h1>{"Disionix: Shaping Tomorrow's Solutions Today"}</h1>
                             <p>{"Innovative Technology for a Brighter Future"}</p>
-                            <Link to={"#"} className="btn theme-btn">
+                            {/* <Link to={"#"} className="btn theme-btn">
                                 {"Say Hello"}
                                 <i className="icofont-double-right"></i>
-                            </Link>
+                            </Link> */}
+                            <a href={"mailto:admin@disionix.com"} className="btn theme-btn">
+                                {"Say Hello"}
+                                <i className="icofont-double-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

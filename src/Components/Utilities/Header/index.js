@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 
 const Header = () => {
@@ -95,10 +95,10 @@ const Header = () => {
                         </div>
 
                         <div className="menu-btn">
-                            <Link to={"#"} className="btn theme-btn">
+                            <a href={"mailto:admin@disionix.com"} className="btn theme-btn">
                                 {"Connect With Us"}
                                 <i className="icofont-arrow-right"></i>
-                            </Link>
+                            </a>
                         </div>
 
                     </div>

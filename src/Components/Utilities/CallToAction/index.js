@@ -18,10 +18,10 @@ const CallToAction = ({extraClass}) => {
                                 <Link className="contact-number" to={"#"}>
                                     {/* {"+00 95 788 394"} */}
                                 </Link>
-                                <Link to={"/#"} className="btn theme-btn">
+                                <a href={"mailto:admin@disionix.com"} className="btn theme-btn">
                                     {"Contact us right away"}
                                     <i className="icofont-double-right"></i>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
