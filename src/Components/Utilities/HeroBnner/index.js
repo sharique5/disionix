@@ -4,7 +4,7 @@ import heroBg from '../../../assets//images/hero/system-website-concept.png'
 
 const HeroBanner = () => {
     return (
-        <section className="hero-section" style={{ background: `url(${heroBg})` }}>
+        <section className="hero-section" style={{ background: `url(${heroBg})` }} id="home">
             <div className="hero-shape">
                 <img src={heroShape} alt="Hero Shape Image" />
             </div>

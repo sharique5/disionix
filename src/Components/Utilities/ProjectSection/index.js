@@ -36,7 +36,7 @@ const project = [
 
 const ProjectSection = () => {
     return (
-        <section className="pt-110 rpt-90 pb-60">
+        <section className="pt-110 rpt-90 pb-60" id="project">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

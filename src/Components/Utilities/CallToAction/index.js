@@ -4,7 +4,7 @@ import ctaBG from '../../../assets/images/cta-bg.jpg'
 const CallToAction = ({extraClass}) => {
     return (
 
-        <section className={`cta-section pb-120 rpb-100 ${extraClass ? extraClass : ''}`}>
+        <section className={`cta-section pb-120 rpb-100 ${extraClass ? extraClass : ''}`} id="contact">
             <div className="container">
                 <div className="contact-withus" style={{ background: `url(${ctaBG})`}}>
                     <div className="row">

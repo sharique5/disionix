@@ -62,7 +62,7 @@ const services = [
 const ServiceSection = () => {
     return (
 
-        <section className="service-section pt-110 rpt-90 pb-70 rpb-100">
+        <section className="service-section pt-110 rpt-90 pb-70 rpb-100" id="service">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

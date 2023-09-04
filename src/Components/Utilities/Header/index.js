@@ -53,28 +53,40 @@ const Header = () => {
                                 <div className={`navbar-collapse collapse clearfix ${mobileMenu ? 'show' : ''}`}>
                                     <ul className="navigation clearfix">
                                         <li>
-                                            <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
+                                            {/* <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/"}>
                                                 {'Home'}
-                                            </NavLink>
+                                            </NavLink> */}
+                                            <a href={"#home"} onClick={() => setMobileMenu(false)} className="current-menu-item">
+                                                {"Home"}
+                                            </a>
                                         </li>
                                         <li>
-                                            <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
+                                            {/* <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"#service"}>
                                                 {"Service"}
-                                            </NavLink>
+                                            </NavLink> */}
+                                            <a href={"#service"} onClick={() => setMobileMenu(false)} className="current-menu-item">
+                                                {"Service"}
+                                            </a>
                                         </li>
                                         <li>
-                                            <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
+                                            {/* <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/about"}>
                                                 {"About"}
-                                            </NavLink>
+                                            </NavLink> */}
+                                            <a href="#about" onClick={() => setMobileMenu(false)} className="current-menu-item">
+                                                {"About"}
+                                            </a>
                                         </li>
                                         <li>
-                                            <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
+                                            {/* <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/project-details"}>
                                                 {"Project"}
-                                            </NavLink>
+                                            </NavLink> */}
+                                            <a href="#project" onClick={() => setMobileMenu(false)} className="current-menu-item">
+                                                {"Project"}
+                                            </a>
                                         </li>
                                         {/* <li>
                                             <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
@@ -83,10 +95,13 @@ const Header = () => {
                                             </NavLink>
                                         </li> */}
                                         <li>
-                                            <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
+                                            {/* <NavLink onClick={() => setMobileMenu(false)} className="current-menu-item"
                                                 to={"/contact"}>
                                                 {"Contact"}
-                                            </NavLink>
+                                            </NavLink> */}
+                                            <a href="#contact" onClick={() => setMobileMenu(false)} className="current-menu-item">
+                                                {"Contact"}
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>

@@ -4,7 +4,7 @@ import quotation from '../../../assets/images/chooseus/quotation-icon.png';
 import yoe from '../../../assets/images/chooseus/yoe.png';
 const ChooseusSection = () => {
     return (
-        <section className="project-section chooseus-section pt-120 rpt-100 pb-120 rpb-95">
+        <section className="project-section chooseus-section pt-120 rpt-100 pb-120 rpb-95" id="about">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
