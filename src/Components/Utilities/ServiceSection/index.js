@@ -1,50 +1,60 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle";
 
-import thumb1 from '../../../assets/images/service/serv-icon1.png';
-import thumb2 from '../../../assets/images/service/serv-icon2.png';
-import thumb3 from '../../../assets/images/service/serv-icon3.png';
-import thumb4 from '../../../assets/images/service/serv-icon4.png';
-import thumb5 from '../../../assets/images/service/serv-icon5.png';
-import thumb6 from '../../../assets/images/service/serv-icon6.png';
+// import thumb1 from '../../../assets/images/service/serv-icon1.png';
+// import thumb2 from '../../../assets/images/service/serv-icon2.png';
+// import thumb3 from '../../../assets/images/service/serv-icon3.png';
+// import thumb4 from '../../../assets/images/service/serv-icon4.png';
+// import thumb5 from '../../../assets/images/service/serv-icon5.png';
+// import thumb6 from '../../../assets/images/service/serv-icon6.png';
+
+import softwareDevelopment from '../../../assets/images/service/software-development.png';
+import mobileDevelopment from '../../../assets/images/service/mobile-development.png';
+import webDevelopment from '../../../assets/images/service/web-development.png';
+import cloudDevelopment from '../../../assets/images/service/cloud-service.png';
+import rpaDevelopment from '../../../assets/images/service/rpa-development.png';
+import business from '../../../assets/images/service/business-analytics.png';
+import mlDevelopment from '../../../assets/images/service/machine-learning.png';
+import cyberSecurity from '../../../assets/images/service/cyber-security.png';
+import consulting from '../../../assets/images/service/consulting.png';
 
 // import serviceImg from '../../../assets/images/service/service-img.jpg';
 
 const services = [
     {
-        thumb: thumb1,
+        thumb: softwareDevelopment,
         title: 'Custom Software Development.',
     },
     {
-        thumb: thumb2,
+        thumb: mobileDevelopment,
         title: 'Mobile App Development.',
     },
     {
-        thumb: thumb3,
+        thumb: webDevelopment,
         title: 'Web Development.',
     },
     {
-        thumb: thumb4,
+        thumb: cloudDevelopment,
         title: 'Cloud Computing Services.',
     },
     {
-        thumb: thumb5,
+        thumb: rpaDevelopment,
         title: 'RPA Development.',
     },
     {
-        thumb: thumb6,
+        thumb: business,
         title: 'Data Analytics and Business Intelligence.',
     },
     {
-        thumb: thumb4,
+        thumb: mlDevelopment,
         title: 'AI and Machine Learning.',
     },
     {
-        thumb: thumb5,
+        thumb: cyberSecurity,
         title: 'Cybersecurity Services.',
     },
     {
-        thumb: thumb6,
+        thumb: consulting,
         title: 'Consulting and IT Strategy.',
     }
 ]

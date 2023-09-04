@@ -1,6 +1,7 @@
 import SectionTitle from "../SectionTitle";
-import chooseusimg from '../../../assets/images/chooseus/chooseus-img.jpg';
+// import chooseusimg from '../../../assets/images/chooseus/chooseus-img.jpg';
 import quotation from '../../../assets/images/chooseus/quotation-icon.png';
+import yoe from '../../../assets/images/chooseus/yoe.png';
 const ChooseusSection = () => {
     return (
         <section className="project-section chooseus-section pt-120 rpt-100 pb-120 rpb-95">
@@ -13,7 +14,7 @@ const ChooseusSection = () => {
                                 <h4>{"Years Experience"}</h4>
                             </div>
                             <div className="chooseus-img">
-                                <img src={chooseusimg} alt="Choose Us Image" />
+                                <img src={yoe} alt="Choose Us Image" />
                             </div>
                             <div className="experience-content">
                                 <blockquote>

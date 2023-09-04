@@ -1,29 +1,35 @@
 import SectionTitle from "../SectionTitle";
 
-import thumb1 from '../../../assets/images/project/project1.jpg';
-import thumb2 from '../../../assets/images/project/project2.jpg';
-import thumb3 from '../../../assets/images/project/project3.jpg';
-import thumb4 from '../../../assets/images/project/project4.jpg';
+// import thumb1 from '../../../assets/images/project/project1.jpg';
+// import thumb2 from '../../../assets/images/project/project2.jpg';
+// import thumb3 from '../../../assets/images/project/project3.jpg';
+// import thumb4 from '../../../assets/images/project/project4.jpg';
 
-import rightImg from '../../../assets/images/project/project5.jpg'
+// import rightImg from '../../../assets/images/project/project5.jpg'
+
+import aiPoweredAutomation from '../../../assets/images/project/ai-powered-automation.png';
+import roboticProcessAutomation from '../../../assets/images/project/robotic-process-automation.png';
+import webAppDevelopment from '../../../assets/images/project/web-app-development.png';
+import uiUxMock from '../../../assets/images/project/ui-ux-mock.png';
+import preddictive from '../../../assets/images/project/predictive-analysis.png'
 
 import { Link } from "react-router-dom";
 
 const project = [
     {
-        thumb: thumb1,
+        thumb: aiPoweredAutomation,
         title: 'AI-Powered Automation.'
     },
     {
-        thumb: thumb2,
+        thumb: roboticProcessAutomation,
         title: 'RPA Implementation.'
     },
     {
-        thumb: thumb3,
+        thumb: webAppDevelopment,
         title: 'Mobile App / Web Development.'
     },
     {
-        thumb: thumb4,
+        thumb: uiUxMock,
         title: 'UI/UX Design Strategy.'
     },
 ]
@@ -70,7 +76,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="project-item project-right-item" style={{ background: `url(${rightImg})` }}>
+                        <div className="project-item project-right-item" style={{ background: `url(${preddictive})` }}>
                             <div className="project-content">
                                 <Link to={"/#"} className="project-icon">
                                     <i className="icofont-arrow-right"></i>

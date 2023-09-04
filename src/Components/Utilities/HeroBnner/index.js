@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import heroShape from '../../../assets/images/hero/hero-shape.png'
-import heroBg from '../../../assets//images/hero/hero-bg.jpg'
+import heroBg from '../../../assets//images/hero/system-website-concept.png'
 
 const HeroBanner = () => {
     return (
