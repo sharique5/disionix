@@ -12,6 +12,15 @@
     transition: all 500ms ease;
 }
 
+.main-header .logo-outer .logo {
+    height: 7vh;
+}
+
+.main-header .logo-outer .logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .fixed-header {
     box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, .10);
 }

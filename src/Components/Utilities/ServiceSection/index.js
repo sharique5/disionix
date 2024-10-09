@@ -1,59 +1,74 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle";
 
-import thumb1 from '../../../assets/images/service/serv-icon1.png';
-import thumb2 from '../../../assets/images/service/serv-icon2.png';
-import thumb3 from '../../../assets/images/service/serv-icon3.png';
-import thumb4 from '../../../assets/images/service/serv-icon4.png';
-import thumb5 from '../../../assets/images/service/serv-icon5.png';
-import thumb6 from '../../../assets/images/service/serv-icon6.png';
+import serv1 from '../../../assets/images/service/disionix-serv-icon1.png';
+import serv2 from '../../../assets/images/service/disionix-serv-icon2.png';
+import serv3 from '../../../assets/images/service/disionix-serv-icon3.png';
+import serv4 from '../../../assets/images/service/disionix-serv-icon4.png';
+import serv5 from '../../../assets/images/service/disionix-serv-icon5.png';
+import serv6 from '../../../assets/images/service/disionix-serv-icon6.png';
+import serv7 from '../../../assets/images/service/disionix-serv-icon7.png';
+import serv8 from '../../../assets/images/service/disionix-serv-icon8.png';
+import serv9 from '../../../assets/images/service/disionix-serv-icon9.png';
 
-import serviceImg from '../../../assets/images/service/service-img.jpg';
+// import serviceImg from '../../../assets/images/service/service-img.jpg';
 
 const services = [
     {
-        thumb: thumb1,
-        title: 'IT Management Services.',
+        thumb: serv1,
+        title: 'Custom Software Development.',
     },
     {
-        thumb: thumb2,
-        title: 'Backup & Data Recovery.',
+        thumb: serv2,
+        title: 'Mobile App Development.',
     },
     {
-        thumb: thumb3,
-        title: 'Cloud Managed Services.',
+        thumb: serv3,
+        title: 'Web Development.',
     },
     {
-        thumb: thumb4,
-        title: 'Cyber Security Services.',
+        thumb: serv4,
+        title: 'Cloud Computing Services.',
     },
     {
-        thumb: thumb5,
-        title: 'Software Development.',
+        thumb: serv5,
+        title: 'RPA Development.',
     },
     {
-        thumb: thumb6,
-        title: 'Big Data And Analytics.',
+        thumb: serv6,
+        title: 'Data Analytics and Business Intelligence.',
+    },
+    {
+        thumb: serv7,
+        title: 'AI and Machine Learning.',
+    },
+    {
+        thumb: serv8,
+        title: 'Cybersecurity Services.',
+    },
+    {
+        thumb: serv9,
+        title: 'Consulting and IT Strategy.',
     },
 ]
 
 const ServiceSection = () => {
     return (
 
-        <section className="service-section pt-110 rpt-90 pb-70 rpb-100">
+        <section className="service-section pt-110 rpt-90 pb-70 rpb-100" id="service">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         {/* Section Title */}
                         <SectionTitle
                             label={'Our Services'}
-                            title={'Choose Service For Manage Your Business'}
+                            title={'Techscapes: Our Service Spectrum'}
                             extraClass={'text-center'}
                         />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-8 col-xl-9">
+                    <div className="col-lg-12 col-xl-12">
                         <div className="row">
                             {
                                 services.map((data, index) => (
@@ -64,25 +79,13 @@ const ServiceSection = () => {
                                             </div>
                                             <div className="serv-content">
                                                 <h5>
-                                                    <Link to={"/service-details"}>{data.title}</Link>
+                                                    <Link to={"#"}>{data.title}</Link>
                                                 </h5>
                                             </div>
                                         </div>
                                     </div>
                                 ))
                             }
-
-
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-xl-3">
-                        <div className="service-img" style={{ background: `url(${serviceImg})` }}>
-                            <div className="service-details-btn">
-                                <Link to={"/service-details"} className="btn theme-btn">
-                                    {"More Services"}
-                                    <i className="icofont-double-right"></i>
-                                </Link>
-                            </div>
                         </div>
                     </div>
                 </div>

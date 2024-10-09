@@ -1,26 +1,26 @@
 import SectionTitle from "../SectionTitle";
 
-import thumb1 from '../../../assets/images/project/project1.jpg';
-import thumb2 from '../../../assets/images/project/project2.jpg';
-import thumb3 from '../../../assets/images/project/project3.jpg';
-import thumb4 from '../../../assets/images/project/project4.jpg';
+import thumb1 from '../../../assets/images/project/disionix-project1.png';
+import thumb2 from '../../../assets/images/project/disionix-project2.png';
+import thumb3 from '../../../assets/images/project/disionix-project3.png';
+import thumb4 from '../../../assets/images/project/disionix-project4.png';
 
-import rightImg from '../../../assets/images/project/project5.jpg'
+import rightImg from '../../../assets/images/project/disionix-project5.png'
 
 import { Link } from "react-router-dom";
 
 const project = [
     {
         thumb: thumb1,
-        title: 'IT Management Services.'
+        title: 'AI-Powered Automation.'
     },
     {
         thumb: thumb2,
-        title: 'Branding Development.'
+        title: 'RPA Implementation.'
     },
     {
         thumb: thumb3,
-        title: 'Technology Prototyping.'
+        title: 'Mobile App / Web Development.'
     },
     {
         thumb: thumb4,
@@ -30,14 +30,14 @@ const project = [
 
 const ProjectSection = () => {
     return (
-        <section className="project-section pt-110 rpt-90 pb-60">
+        <section className="project-section pt-110 rpt-90 pb-60" id="project-details">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         {/* Section Title */}
                         <SectionTitle
                             label={'Success Stories'}
-                            title={'Successfully Complete All Case of Clients.'}
+                            title={'Turning Challenges into Achievements.'}
                             extraClass={'text-center'}
                         />
                     </div>
@@ -54,10 +54,10 @@ const ProjectSection = () => {
                                                 <img src={data.thumb} alt={data.title} />
                                             </div>
                                             <div className="project-content">
-                                                <Link to={"/project-details"} className="project-icon">
+                                                <Link to={"#"} className="project-icon">
                                                     <i className="icofont-arrow-right"></i>
                                                 </Link>
-                                                <h5><Link to={"/project-details"}>{data.title}</Link></h5>
+                                                <h5><Link to={"#"}>{data.title}</Link></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -72,10 +72,10 @@ const ProjectSection = () => {
                     <div className="col-lg-4">
                         <div className="project-item project-right-item" style={{ background: `url(${rightImg})` }}>
                             <div className="project-content">
-                                <Link to={"/project-details"} className="project-icon">
+                                <Link to={"#"} className="project-icon">
                                     <i className="icofont-arrow-right"></i>
                                 </Link>
-                                <h5><Link to={"/project-details"}>{"Product Consultation."}</Link></h5>
+                                <h5><Link to={"#"}>{"Machine Learning for Predictive Analytics."}</Link></h5>
                             </div>
                         </div>
                     </div>

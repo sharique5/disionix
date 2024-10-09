@@ -1,25 +1,25 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-import post1 from '../../../assets/images/footer/post1.png';
-import post2 from '../../../assets/images/footer/post2.png';
+// import post1 from '../../../assets/images/footer/post1.png';
+// import post2 from '../../../assets/images/footer/post2.png';
 
-const footerPost = [
-    {
-        thumb: post1,
-        title: 'We carry more than just good coding skills.',
-        date: '22.01.2021'
-    },
-    {
-        thumb: post2,
-        title: 'We carry more than just good coding skills.',
-        date: '22.01.2021'
-    },
-]
+// const footerPost = [
+//     {
+//         thumb: post1,
+//         title: 'We carry more than just good coding skills.',
+//         date: '22.01.2021'
+//     },
+//     {
+//         thumb: post2,
+//         title: 'We carry more than just good coding skills.',
+//         date: '22.01.2021'
+//     },
+// ]
 
 const Footer = () => {
     return (
         <footer className="main-footer">
-            <div className="footer-wrap pt-115 rpt-95 pb-60 rpb-40">
+            {/* <div className="footer-wrap pt-115 rpt-95 pb-60 rpb-40">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
@@ -159,12 +159,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- Copyright Area --> */}
             <div className="copy-right-area">
                 <div className="container">
                     <div className="copy-right-text text-center">
-                        <p><span>{"Copyright"}</span> {"© 2021 | All Rights Reserved"}</p>
+                        <p><span>{"Copyright"}</span> {"© 2024 | All Rights Reserved"}</p>
                     </div>
                 </div>
             </div>
