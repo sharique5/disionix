@@ -13,8 +13,6 @@ const BlogDetails = () => {
 
             <BlogDetailsSection/>
 
-            
-
         </React.Fragment>
 
 

@@ -11,6 +11,7 @@ import ProjectDetails from "./Pages/ProjectDetails";
 import ServiceDetails from "./Pages/ServiceDetails";
 import Footer from "./Utilities/Footer";
 import Header from "./Utilities/Header";
+import MosqueSeekPrivacy from "./Pages/MosqueSeekPrivacy";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
           <Route exact path={'/service-details'} component={ServiceDetails} />
           <Route exact path={'/project-details'} component={ProjectDetails} />
           <Route exact path={'/blog-details'} component={BlogDetails} />
-          <Route exact path={'/mosqueseek/privacy'} component={BlogDetails} />
+          <Route exact path={'/mosqueseek/privacy'} component={MosqueSeekPrivacy} />
           <Route exact path={'/contact'} component={ContactUs} />
 
         </Switch>

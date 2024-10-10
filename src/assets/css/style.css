@@ -1895,3 +1895,46 @@ button:focus {
     animation        : pulse 2s infinite;
     -webkit-animation: pulse 2s infinite;
 }
+
+/****************************************************** */
+/******************  19. Privacy Banner ****************** */
+/****************************************************** */
+.privacy-banner {
+    height             : 410px;
+    display            : flex;
+    align-items        : center;
+    position           : relative;
+    margin-top         : 100px;
+    margin-bottom      : 25px;
+    background         : #1A5319;
+    background-position: center;
+    background-size    : cover;
+    z-index            : 1;
+}
+
+.privacy-banner .banner-content h2 {
+    color: #D6EFD8;
+}
+
+.privacy-banner .page-breadcrumb .breadcrumb {
+    max-width: max-content;
+    min-width: max-content;
+    background-color: #508D4E;
+}
+
+.privacy-details-content {
+    max-width: 80vw;
+    width: 100%;
+}
+
+.privacy-details-content ul {
+    margin-left: 10px;
+}
+
+.privacy-details-content h3 {
+    margin-top: 2rem;
+}
+
+.privacy-details-content h2 {
+    margin-top: 2rem;
+}
