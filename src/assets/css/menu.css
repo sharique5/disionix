@@ -31,6 +31,22 @@
     transition: all 500ms ease;
 }
 
+.privacy-header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.privacy-header-container .logo-outer .logo {
+    height: 7vh;
+}
+
+.privacy-header-container .logo-outer .logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 /** Header Main Menu */
 
 .main-menu .navbar-collapse {
@@ -179,6 +195,13 @@
         position: absolute;
         width: 155px;
         top: 25px;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .main-header .privacy-header-container .logo-outer {
+        position: relative;
+        width: 155px;
+        top: 2px;
         -webkit-transition: all 500ms ease;
         transition: all 500ms ease;
     }

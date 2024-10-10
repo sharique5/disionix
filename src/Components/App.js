@@ -27,6 +27,7 @@ const App = () => {
           <Route exact path={'/service-details'} component={ServiceDetails} />
           <Route exact path={'/project-details'} component={ProjectDetails} />
           <Route exact path={'/blog-details'} component={BlogDetails} />
+          <Route exact path={'/mosqueseek/privacy'} component={BlogDetails} />
           <Route exact path={'/contact'} component={ContactUs} />
 
         </Switch>

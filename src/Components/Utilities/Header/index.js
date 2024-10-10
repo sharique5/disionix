@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useLocation  } from "react-router-dom";
 import Logo from "../Logo";
 
 const Header = () => {
@@ -23,8 +23,29 @@ const Header = () => {
     const isMobileMenu = () => {
         setMobileMenu(!mobileMenu);
     };
+    const { pathname } = useLocation();
+    const isPrivacyHeader = pathname.indexOf("privacy") > -1;
 
-
+    if (isPrivacyHeader) {
+        return (
+            <header className="main-header">
+                <div className="privacy-header-container">
+                    <Logo />
+                    <Link 
+                        to={"#"}
+                        onClick={(e) => {
+                            window.location.href = "mailto:admin@disionix.com";
+                            e.preventDefault();
+                        }} 
+                        className="btn theme-btn"
+                    >
+                        {"Connect with us"}
+                        <i className="icofont-arrow-right"></i>
+                    </Link>
+                </div>
+            </header>    
+        )
+    }
     return (
         <header className="main-header">
 

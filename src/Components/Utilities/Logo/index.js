@@ -7,7 +7,7 @@ const Logo = () => {
         <div className="logo-outer d-flex align-items-center">
             <div className="logo">
                 <Link to={"/"}>
-                    <img src={logo} alt={'Envotek'} />
+                    <img src={logo} alt={'Disionix'} />
                 </Link>
             </div>
         </div>
